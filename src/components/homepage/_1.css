@@ -1,0 +1,142 @@
+.new_header {
+    position: relative;
+    height: 550px;
+    background: #000;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../../assets/images/homepage/_5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.video {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 10px);
+    transform: translate3d(-50%, -50%, 10px);
+    width: 100vw;
+    height: 56.25vw;
+    /* min-height: 100%;
+    min-width: 177.77vh; */
+    /* display: none; */
+}
+
+.quick_events .grid_2 {
+    grid-gap: 30px;
+}
+
+.quick_events img {
+    width: 100%;
+    height: 20rem;
+    /* height: 100%; */
+    margin-bottom: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.quick_events img.events_img {
+    height: 100%;
+}
+
+.quick_events .grid_4 p {
+    margin-bottom: 0%;
+}
+
+/* .quick_events .contain {
+    padding: 0px 60px;
+} */
+
+.quick_events .content_display p {
+    font-size: 1.5rem;
+}
+
+.quick_events .content_display {
+    margin-bottom: 3%;
+}
+
+.quick_events .content_display h3 {
+    font-size: 2.5rem;
+}
+
+
+.center {
+    margin: 0% auto;
+    display: block;
+    text-align: center;
+}
+
+.explore img {
+    height: 30rem;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: top;
+}
+
+/* props */
+/* .props {
+    background: #000;
+} */
+
+.stylish {
+    /* text-align: center; */
+}
+
+.quick_events .content_display p.recoleta {
+    font-family: 'Recoleta';
+    margin-bottom: 2px;
+    font-size: 2.5rem;
+}
+
+.props.black_bg {
+    background: #000;
+    padding: 5% 0px;
+}
+
+.props img {
+    height: 30rem;
+    width: 20rem;
+    margin: 0% auto;
+    display: block;
+}
+
+.props p {
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+.props.black_bg p, .props.black_bg h4 {
+    color: #fff;
+}
+
+.props.black_bg button {
+    color: #000000;
+    background: #F0F0F0;
+}
+
+.props h4 {
+    font-size: 2rem;
+    width: 60%;
+}
+
+.props button {
+    padding: 10px 35px;
+    border: 1px solid #F0F0F0;
+    background: #000000;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 1.4rem;
+}
+
+.props .grid_2 {
+    grid-gap: 30px;
+    align-items: center;
+}
+
+.props .grid_3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}

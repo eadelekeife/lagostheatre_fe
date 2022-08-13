@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Matter Medium';
+    src: url('./fonts/matter/Matter-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Matter Regular';
+    src: url('./fonts/matter/Matter-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Matter SemiBold';
+    src: url('./fonts/matter/Matter-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Recoleta';
+    src: url('./fonts/Recoleta-RegularDEMO.otf');
+}
+
+:root {
+    --red: #D1410C;
+    --gray: #D1D1D1;
+    --gray-font: #948D8D;
+    --yellow: #A6762D;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body, html {
+    font-family: 'Matter Regular';
+    font-size: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Matter SemiBold';
+}
+
+.contain {
+    padding: 0% 3%;
+}
+
+.mt_5 {
+    margin-top: 5%;
+}
+
+.mt_3 {
+    margin-top: 3%;
+}
+
+.grid_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid_2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid_4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.grid_3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.grid_5 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+}
+
+.grid_4 img, .grid_3 img, .grid_2 img, .grid_5 img {
+    width: 100%;
+    height: 100%;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.flex_form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+}
+
+.btn_main {
+    background: var(--red);
+    border: 1px solid var(--red);
+    color: #fff;
+    padding: 12px;
+    width: 100%;
+}

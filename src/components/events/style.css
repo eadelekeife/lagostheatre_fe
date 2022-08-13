@@ -1,0 +1,143 @@
+.events.main {
+    background: #FEFEFE;
+}
+
+.events_header {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .1)), url('../../assets/images/content/events_hero.gif');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 30px;
+    height: 30rem;
+    display: table;
+    width: 100%;
+}
+
+
+.event_header_search {
+    background: #fff;
+    border-radius: 3px;
+    padding: 20px 20px;
+    width: 40%;
+    font-size: 1.4rem;
+}
+
+.event_header_search h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.event_header_search img {
+    height: 1.5rem;
+    width: auto;
+}
+
+.event_header_search label {
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.controller_div {
+    position: relative;
+}
+
+.filter_box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #EEEDF2;
+    text-align: center;
+    background: #F8F7FA;
+    justify-content: center;
+    padding: 8px 35px;
+    border-radius: 50px;
+}
+
+.filter_box p {
+    margin-bottom: 0%;
+    font-size: 1.5rem;
+}
+
+.filter_box ion-icon {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.filter {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 15px;
+}
+
+.banner {
+    height: 100%;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.events_tab_header {
+    font-size: 1.4rem;
+}
+
+.event_data_box {
+    border: 1px solid #EEEDF2;
+}
+
+.event_data_box p {
+    font-size: 1.3rem;
+    line-height: 1.6;
+}
+
+.event_data_box .event_body {
+    padding: 10px 5px;
+    /* padding-bottom: 0px; */
+}
+
+.event_data_box .event_body p.eventDate {
+    margin-bottom: 5px;
+    color: var(--red);
+}
+
+.event_data_box .event_body p {
+    margin: 0%;
+    color: #111;
+}
+
+.event_data_box .event_body h3 {
+    font-size: 1.4rem;
+}
+
+.event_data_box ion-icon.heart {
+    font-size: 2rem;
+    color: var(--red);
+}
+
+.event_data_box ion-icon.tickets {
+    font-size: 1.9rem;
+}
+
+.event_footer {
+    border-top: 1px solid #EEEDF2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.event_footer p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    color: #111;
+}
+
+.event_footer p p {
+    margin-left: 5px;
+}
+
+/* .new_select {
+    position: absolute;
+    top: 5rem;
+    background: red;
+    z-index: 100;
+    width: 100%;
+} */
