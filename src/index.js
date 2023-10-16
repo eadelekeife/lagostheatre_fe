@@ -6,22 +6,25 @@ import ReactDOM from 'react-dom/client';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import AppRoutes from './utils/routes';
+import AppRoutes from './components/routes';
 
-import Nav from './utils/nav';
-// import Homepage from './components/homepage';
-import Homepage from './components/homepage/new';
+import AboutUsPage from './pages/about/about';
+import LTIPage from './pages/classes/lti';
+import TaftaPage from './pages/classes/tafta';
+import TrainingsPage from './pages/classes/trainings';
+import GeneralInfoPage from './pages/rentals/general';
+import RentPage from './pages/rentals/rent';
+import DescriptionPage from './pages/rentals/description';
 
-import SignIn from './components/auth/signin';
-import SignUp from './components/auth/signup';
-import Reset from './components/auth/forgot';
+import Shop from './pages/support/donate';
 
-import About from './components/mini/about';
-import Tour from './components/mini/tour';
-import Team from './components/mini/team';
-import Trainings from './components/mini/trainings';
-import People from './components/mini/people';
-import Events from './components/events/index';
+import DonatePage from './pages/support/donate';
+import HowToDonatePage from './pages/support/how_to_donate';
+import DonationPage from './pages/support/donation_plans';
+import Homepage from './pages/homepage';
+import EventsPage from './pages/events';
+import OurTeamPage from './pages/about/team';
+import EventDetailPage from './pages/events/event_detail';
 
 const App = () => {
     return (
@@ -29,16 +32,35 @@ const App = () => {
             {/* <Nav /> */}
             <Routes>
                 <Route path="/" exact element={<Homepage />} />
-                <Route path={AppRoutes.tour} element={<Tour />} />
+                <Route path={AppRoutes.events} exact element={<EventsPage />} />
+                <Route path={AppRoutes.event_detail} exact element={<EventDetailPage />} />
+                {/* <Route path={AppRoutes.tour} element={<Tour />} />
                 <Route path={AppRoutes.ourteam} element={<Team />} />
                 <Route path={AppRoutes.trainings} element={<Trainings />} />
                 <Route path={AppRoutes.people} element={<People />} />
-                <Route path={AppRoutes.events} element={<Events />} />
-                <Route path={AppRoutes.about} element={<About />} />
+                <Route path={AppRoutes.events} element={<Events />} /> */}
+                <Route path={AppRoutes.about} element={<AboutUsPage />} />
+                <Route path={AppRoutes.team} element={<OurTeamPage />} />
 
-                <Route path={AppRoutes.signin} element={<SignIn />} />
+                <Route path={AppRoutes.lti} element={<LTIPage />} />
+                <Route path={AppRoutes.tafta} element={<TaftaPage />} />
+                <Route path={AppRoutes.trainings} element={<TrainingsPage />} />
+
+
+                <Route path={AppRoutes.general_info} element={<GeneralInfoPage />} />
+                <Route path={AppRoutes.rent} element={<RentPage />} />
+                <Route path={AppRoutes.description} element={<DescriptionPage />} />
+
+                <Route path={AppRoutes.shop} element={<Shop />} />
+
+                <Route path={AppRoutes.donate} element={<DonatePage />} />
+                <Route path={AppRoutes.how_to_donate} element={<HowToDonatePage />} />
+                <Route path={AppRoutes.donation_plans} element={<DonationPage />} />
+                {/* <Route path={AppRoutes.general_info} element={<GeneralInfoPage />} /> */}
+
+                {/* <Route path={AppRoutes.signin} element={<SignIn />} />
                 <Route path={AppRoutes.signup} element={<SignUp />} />
-                <Route path={AppRoutes.forgotPassword} element={<Reset />} />
+                <Route path={AppRoutes.forgotPassword} element={<Reset />} /> */}
             </Routes>
         </BrowserRouter>
     )

@@ -1,0 +1,63 @@
+.events-page .tile-header {
+    color: #111;
+    margin-bottom: 0px;
+}
+
+.events-page .grid-4 .tile-header {
+    color: #fff;
+}
+
+.events-page .grid-4 .homepage-links-grid-cover {
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, .2);
+}
+
+.events-page .grid-4 .homepage-links-grid-cover h3.tile-header {
+    font-size: 1.6rem;
+}
+
+.event-detail-hero {
+    height: 40rem;
+    width: 100%;
+    background: #111;
+}
+
+.ticket-box {
+    background: #fff;
+    border: 1px solid #e1e3e4;
+    border-radius: 3px;
+    max-height: 30rem;
+    overflow: hidden;
+    overflow-x: hidden;
+    padding: 3%;
+    width: 100%;
+}
+
+.ticket-box ul li {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5;
+    padding: 2px 0;
+}
+
+.ticket-box button {
+    width: 100%;
+}
+
+.first_display {
+    height: -webkit-max-content;
+    height: max-content;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 15%;
+}
+
+.social ion-icon {
+    color: #c3954e;
+    font-size: 3rem;
+    margin-right: 15px;
+}
+
+.ticket-social {
+    margin-top: 10px;
+    text-align: center;
+}

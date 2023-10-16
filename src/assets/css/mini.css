@@ -1,0 +1,725 @@
+/*  */
+.mini-bg {
+    height: 35rem;
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../images/bg-09.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini-bg.about_us {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../images/bg-09.webp');
+}
+
+.mini-bg.trainings {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../images/main/_16.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mini-bg.tafta {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../images/main/tafta3.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mini-bg.general {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../images/main/visit.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mini-bg.rent {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../images/main/theatre.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mini-bg.description {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../images/main/singer.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mini-bg.donate {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../images/main/donate_hero.JPG');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mini-bg.how_to_donate {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../images/main/_19.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mini-bg.team {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../images/main/_24.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mini-bg.team {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../images/main/_24.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mini-bg.about_us {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../images/main/agt.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mini-bg.plans {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../images/main/day5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mini-bg.lti {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../images/main/about.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mini-bg h2 {
+    font-size: 3.5rem;
+    color: #E5F5F4;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    line-height: 1.2;
+}
+
+.mini-display .mini_bg_links {
+    background: #1E1E1E;
+    padding: 20px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini-display .mini_bg_links ul {
+    margin-bottom: 0px;
+    display: flex;
+    grid-gap: 60px;
+}
+
+.mini-display .mini_bg_links ul li {
+    list-style: none;
+}
+
+.mini-display .mini_bg_links ul li a {
+    font-size: 1.8rem;
+    color: #E5F5F4;
+    text-transform: uppercase;
+    font-family: 'FranklinGotTReg';
+}
+
+
+.mini-content-main {
+    background: #E5F5F4;
+    background: #FCFBFB;
+}
+
+.mini-content-main .grid_block_right {
+    padding-right: 40px;
+}
+
+.mini-content-main .grid_block_left {
+    border-left: 1px solid #bababa;
+    padding-left: 40px;
+}
+
+.mini-content-main p,
+.mini-content-main ul li {
+    font-size: 1.6rem;
+    line-height: 1.8;
+}
+
+.mini-content-main button {
+    background: #C3954E;
+    font-size: 1.6rem;
+    padding: 10px 25px;
+    border-radius: 4px;
+    border: 1px solid #C3954E;
+}
+
+.mini-content-main h4 {
+    font-size: 2.4rem;
+    line-height: 1.2;
+}
+
+.mini-content-main h5 {
+    font-size: 1.8rem;
+    line-height: 1.6;
+}
+
+.mini-content-main a {
+    font-size: 1.6rem;
+    line-height: 1.8;
+}
+
+.mini-content-main a ion-icon {
+    font-size: 2rem;
+    margin-bottom: -3px;
+}
+
+.mini-content-main .grid-4,
+.mini-content-main .grid-3 {
+    margin-bottom: 20px;
+}
+
+.grid-2-bias img {
+    height: 40rem;
+    /* margin-bottom: 30px; */
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+
+.media-cover.final-school img {
+    height: 40rem;
+    object-fit: cover;
+    object-position: top;
+}
+
+.media-cover img.rent_image,
+.media-cover.plan .grid-2.images img {
+    height: 20rem;
+}
+
+.media-cover.plan .grid-2.images {
+    grid-gap: 20px;
+}
+
+.donateCategory {
+    background: #01757E;
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+}
+
+.donation.grid-2 {
+    grid-gap: 5px;
+}
+
+.donateCategory h4 {
+    color: #fff;
+    /* font-family: DM Sans,sans-serif; */
+    font-size: 1.8rem;
+    line-height: 1.6;
+    text-transform: uppercase;
+    /* font-weight: 500; */
+}
+
+.donateCategory._1 {
+    border-radius: 12px 0px 0px 0px;
+}
+
+.donateCategory._2 {
+    border-radius: 0px 12px 0px 0px;
+}
+
+.donateCategory._3 {
+    border-radius: 0px 0px 0px 12px;
+}
+
+.donateCategory._4 {
+    border-radius: 0px 0px 12px 0px;
+}
+
+.donateCategory p {
+    color: #fff;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.donateCategory .donation-header {
+    height: 70px;
+}
+
+.donateCategory a {
+    background: #fff;
+    color: #1E1E1E;
+    display: block;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    width: 90%;
+    margin: 0px auto;
+    display: block;
+}
+
+.mini-content-main p span {
+    font-family: 'FranklinGotTReg';
+}
+
+/*  */
+.about {
+    background: #FCFBFB;
+}
+
+.main-content {
+    width: 80%;
+    margin: 0px auto;
+    display: block;
+}
+
+.main-content .main-content-body {
+    background: #fff;
+    padding: 5% 3%;
+}
+
+.main-content .main-content-body .main-content-body-content {
+    width: 70%;
+    margin: 0px auto;
+    display: block;
+}
+
+.main-content .main-content-body p {
+    font-size: 1.6rem;
+    line-height: 1.8;
+}
+
+.main-content .main-content-body h4 {
+    font-size: 2rem;
+    margin-bottom: 0px;
+}
+
+.main-content .main-content-body h3 {
+    font-size: 1.6rem;
+    line-height: 1.8;
+}
+
+.main-content .main-content-body .grid-4 img {
+    width: 100%;
+    height: 18rem;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.side_display.first_display h3 {
+    font-size: 1.6rem;
+}
+
+.side_display.first_display ion-icon {
+    font-size: 3rem;
+    color: #C3954E;
+}
+
+.side_display.first_display .social {
+    display: flex;
+    grid-gap: 20px;
+}
+
+
+/* svg */
+svg.curve {
+    fill: red;
+    stroke: red;
+
+    width: 100%;
+    max-height: 200px;
+    margin-bottom: 3px;
+}
+
+.team_card.team2 {
+    height: 20vw;
+    background-image: url("../images/people/_2.jpg");
+}
+
+.team_card.team3 {
+    background-image: url("../images/people/_3.jpg");
+    height: 20vw;
+}
+
+.team_card.team50 {
+    background-image: url("../images/people/idris.jpg");
+    background-position: top;
+    height: 20vw;
+}
+
+.team_card.team4 {
+    background-image: url("../images/people/_4.jpg");
+    height: 20vw;
+}
+
+.team_card.team5 {
+    background-image: url("../images/people/ogunshote.jpeg");
+    background-position: top;
+    height: 20vw;
+}
+
+.team_card._3 {
+    background-image: url("../images/people/bukola.jpeg");
+}
+
+.team_card._4 {
+    background-image: url("../images/people/raliat.jpeg");
+    background-position: 50% 0, 50% 0;
+}
+
+.team_card._5 {
+    background-image: url("../images/people/sandra.jpeg");
+    background-position: 50%;
+}
+
+.team_card._6 {
+    background-image: url("../images/people/omotayo.jpg");
+}
+
+.team_card._7 {
+    background-image: url("../images/people/segun.jpeg");
+}
+
+.team_card._8 {
+    background-image: url("../images/people/godwin.jpeg");
+}
+
+.team_card._9 {
+    background-image: url("../images/people/kehinde.jpeg");
+}
+
+.team_card._10 {
+    background-image: url("../images/people/taiwo.jpeg");
+}
+
+.team_card._11 {
+    background-image: url("../images/people/elijah.jpeg");
+}
+
+.team_card._12 {
+    background-image: url("../images/people/dada.jpeg");
+}
+
+.team_card._13 {
+    background-image: url("../images/people/ramoni.jpeg");
+}
+
+.team_card._14 {
+    background-image: url("../images/people/motun.jpeg");
+}
+
+.team_card._15 {
+    background-image: url("../images/people/mufutau.jpeg");
+}
+
+.team_card._16 {
+    background-image: url("../images/people/rekiat.jpeg");
+}
+
+.team_card.electrician {
+    background-image: url("../images/people/electrician.jpeg");
+}
+
+.team_card.accounting {
+    background-image: url("data:image/jpeg;base64,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");
+    background-position: 50% 0, 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.team_card {
+    border-radius: 8px;
+    height: 15vw;
+}
+
+.team_card.team1,
+.team_card.team2,
+.team_card.team3,
+.team_card.team4,
+.team_card.team5,
+.team_card.team6,
+.team_card._3,
+.team_card._4,
+.team_card._5,
+.team_card._6,
+.team_card._7,
+.team_card._8,
+.team_card._9,
+.team_card._10,
+.team_card._11,
+.team_card._12,
+.team_card._13,
+.team_card._14,
+.team_card._15,
+.team_card._16,
+.team_card.electrician,
+.team_card.accounting,
+.team_card.team50 {
+    background-position: 50% 0, 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.team_text,
+.site_bg_overlay {
+    text-align: center;
+}
+
+.team_text h4 {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+}
+
+.team_text p {
+    font-size: 1.4rem;
+    line-height: 1.8;
+}
+
+.team-page .site_bg_overlay {
+    align-items: center;
+    background: rgba(0, 0, 0, .8);
+    border-radius: 16px;
+    cursor: pointer;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: opacity .5s ease-in-out;
+    width: 100%;
+}
+
+.team-page .team_card.team_img_cover:hover .site_bg_overlay {
+    opacity: 1;
+}
+
+.site_bg_overlay h4 {
+    color: #fff;
+    font-size: 1.6rem;
+    margin-bottom: 0;
+}
+
+.site_bg_overlay p {
+    color: #fff;
+    font-size: 1.3rem;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.team_card._1 {
+    background-image: url("../images/people/_1.png");
+    background-position: center;
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.team_card.team1 {
+    background-image: url("../images/people/_1.jpg");
+    height: 30rem;
+}
+
+.single {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+}
+
+.page_summary {
+    font-size: 2.2rem !important;
+    line-height: 1.6;
+    /* text-align: center; */
+    margin-bottom: 0px;
+}
+
+.about .mini-content-main .grid-4,
+.about .mini-content-main .grid-3 {
+    grid-gap: 10px;
+}
+
+.about .mini-content-main .grid-4 img,
+.about .mini-content-main .grid-3 img {
+    height: 20rem;
+}
+
+.plans_list .plan_name {
+    background: #01757E;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* display: flex;
+    justify-content: space-between; */
+    align-items: center;
+}
+
+.plans_list._1 {
+    border-radius: 12px 0px 0px 0px;
+}
+
+.plans_list._1 .plan_name {
+    border-radius: 12px 0px 0px 0px;
+}
+
+.plans_list._2 {
+    border-radius: 0px 12px 0px 0px;
+}
+
+.plans_list._2 .plan_name {
+    border-radius: 0px 12px 0px 0px;
+}
+
+.plans_list._3 {
+    border-radius: 0px 0px 0px 12px;
+}
+
+.plans_list._4 {
+    border-radius: 0px 0px 12px 0px;
+}
+
+.plans_list .plan_name h4 {
+    font-size: 1.6rem;
+    margin-bottom: 0px;
+    color: #fff;
+}
+
+.plans_list .plan_name p {
+    font-size: 1.4rem;
+    margin-bottom: 0px;
+    color: #fff;
+    text-align: right;
+}
+
+.plans_list {
+    background: rgba(1, 117, 126, .2);
+}
+
+.plans_list ul li {
+    list-style: none;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.plans_list .advantage_list ul {
+    min-height: 35rem;
+}
+
+.plans_list .advantage_list {
+    padding: 10px;
+}
+
+.plans_list button {
+    background: #fff;
+    padding: 12px;
+    width: 100%;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    font-size: 1.4rem;
+}
+
+.donation_plan h5.page_summary {
+    text-align: unset;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 720px) {
+    .mini-content-main .grid_block_right {
+        padding-right: 0px;
+    }
+
+    .mini-content-main .grid_block_left {
+        display: none;
+    }
+
+    .about .mini-content-main .grid-4,
+    .about .mini-content-main .grid-3 {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5px;
+    }
+
+    .mini-content-main p,
+    .mini-content-main ul li {
+        font-size: 1.5rem;
+        line-height: 1.8;
+    }
+
+    .mini-content-main h4 {
+        margin-bottom: 5px;
+        font-size: 2.2rem;
+    }
+
+    .mini-content-main p span {
+        font-size: 2rem;
+    }
+
+    .single {
+        width: 70%;
+    }
+
+    .team_img_cover.team_card.team1 {
+        height: 70vw !important;
+    }
+
+    .team .grid-3 h4,
+    .team .grid-4 h4,
+    .team .single h4 {
+        font-size: 1.4rem;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .team .grid-3 p,
+    .team .grid-4 p,
+    .team .single p {
+        font-size: 1.2rem;
+        line-height: 1.6;
+        text-align: center;
+    }
+
+    .team .grid-3 {
+        grid-gap: 5px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .team_card,
+    .team_card.team5,
+    .team_card.team50,
+    .team_card.team4,
+    .team_card.team50,
+    .team_card.team2,
+    .team_card.team3 {
+        background-position: top !important;
+        height: 50vw !important;
+    }
+
+    .team_img_cover.team_card._1 {
+        height: 80vw !important;
+    }
+
+    .mini-bg h2 {
+        text-align: center;
+        font-size: 3.2rem;
+    }
+
+    .grid-2-bias img,
+    .media-cover.final-school img {
+        height: 100%;
+        width: 100%;
+    }
+}
